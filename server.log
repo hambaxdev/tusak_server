@@ -1,0 +1,32 @@
+[2024-06-17T21:10:49.872Z] Node server listening at http://localhost:5252
+[2024-06-17T21:10:49.881Z] MySQL connected...
+[2024-06-17T21:10:49.898Z] Processed events table ensured.
+[2024-06-17T21:13:30.265Z] Node server listening at http://localhost:5252
+[2024-06-17T21:13:30.273Z] MySQL connected...
+[2024-06-17T21:13:30.280Z] Processed events table ensured.
+[2024-06-17T21:16:19.802Z] Payment intent created: {"id":"pi_3PSmuV08bvIFmPdU0cPrWxEX","object":"payment_intent","amount":1200,"amount_capturable":0,"amount_details":{"tip":{}},"amount_received":0,"application":null,"application_fee_amount":null,"automatic_payment_methods":{"allow_redirects":"always","enabled":true},"canceled_at":null,"cancellation_reason":null,"capture_method":"automatic","charges":{"object":"list","data":[],"has_more":false,"total_count":0,"url":"/v1/charges?payment_intent=pi_3PSmuV08bvIFmPdU0cPrWxEX"},"client_secret":"pi_3PSmuV08bvIFmPdU0cPrWxEX_secret_VzrPCcQnzDYcC9cukTXsHktre","confirmation_method":"automatic","created":1718658979,"currency":"eur","customer":null,"description":null,"invoice":null,"last_payment_error":null,"latest_charge":null,"livemode":true,"metadata":{},"next_action":null,"on_behalf_of":null,"payment_method":null,"payment_method_configuration_details":{"id":"pmc_1PEcdm08bvIFmPdUETYVfJ8x","parent":null},"payment_method_options":{"bancontact":{"preferred_language":"en"},"card":{"installments":null,"mandate_options":null,"network":null,"request_three_d_secure":"automatic"},"eps":{},"giropay":{},"ideal":{},"link":{"persistent_token":null}},"payment_method_types":["card","bancontact","eps","giropay","ideal","link"],"processing":null,"receipt_email":null,"review":null,"setup_future_usage":null,"shipping":null,"source":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"requires_payment_method","transfer_data":null,"transfer_group":null}
+[2024-06-17T21:28:32.744Z] Node server listening at http://localhost:5252
+[2024-06-17T21:28:32.753Z] MySQL connected...
+[2024-06-17T21:28:32.759Z] Processed events table ensured.
+[2024-06-17T21:29:36.565Z] Payment intent created: {"id":"pi_3PSn7M08bvIFmPdU1frhxruU","object":"payment_intent","amount":1200,"amount_capturable":0,"amount_details":{"tip":{}},"amount_received":0,"application":null,"application_fee_amount":null,"automatic_payment_methods":{"allow_redirects":"always","enabled":true},"canceled_at":null,"cancellation_reason":null,"capture_method":"automatic","charges":{"object":"list","data":[],"has_more":false,"total_count":0,"url":"/v1/charges?payment_intent=pi_3PSn7M08bvIFmPdU1frhxruU"},"client_secret":"pi_3PSn7M08bvIFmPdU1frhxruU_secret_Ww9zkvbujNXw9QEmrZK7mcXhY","confirmation_method":"automatic","created":1718659776,"currency":"eur","customer":null,"description":null,"invoice":null,"last_payment_error":null,"latest_charge":null,"livemode":true,"metadata":{},"next_action":null,"on_behalf_of":null,"payment_method":null,"payment_method_configuration_details":{"id":"pmc_1PEcdm08bvIFmPdUETYVfJ8x","parent":null},"payment_method_options":{"bancontact":{"preferred_language":"en"},"card":{"installments":null,"mandate_options":null,"network":null,"request_three_d_secure":"automatic"},"eps":{},"giropay":{},"ideal":{},"link":{"persistent_token":null}},"payment_method_types":["card","bancontact","eps","giropay","ideal","link"],"processing":null,"receipt_email":null,"review":null,"setup_future_usage":null,"shipping":null,"source":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"requires_payment_method","transfer_data":null,"transfer_group":null}
+[2024-06-17T21:51:08.460Z] Node server listening at http://localhost:5252
+[2024-06-17T21:51:08.471Z] MySQL connected...
+[2024-06-17T21:51:08.479Z] Processed events table ensured.
+[2024-06-17T21:51:58.330Z] check qr
+[2024-06-17T21:51:58.332Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T21:52:11.904Z] check qr
+[2024-06-17T21:52:11.906Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T21:55:10.215Z] check qr
+[2024-06-17T21:55:10.216Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T21:55:15.477Z] check qr
+[2024-06-17T21:55:15.478Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T21:58:53.586Z] check qr
+[2024-06-17T21:58:53.588Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T22:01:05.504Z] check qr
+[2024-06-17T22:01:05.505Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T22:01:10.604Z] check qr
+[2024-06-17T22:01:10.605Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T22:01:48.437Z] check qr
+[2024-06-17T22:01:48.438Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
+[2024-06-17T22:02:21.648Z] check qr
+[2024-06-17T22:02:21.653Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde deactivated.
