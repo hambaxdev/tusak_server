@@ -28,6 +28,11 @@ app.use((req, res, next) => {
 // Подключаем маршруты
 app.use('/api', routes);
 
+// Обработка webhook
+const webhookRoutes = require('./routes/webhook');
+app.use('/webhook', webhookRoutes);
+
+
 // Статические файлы и отправка React-приложения
 const staticDir = process.env.STATIC_DIR || 'public'; // Используем значение по умолчанию 'public' если STATIC_DIR не установлено
 app.use(express.static(staticDir));
