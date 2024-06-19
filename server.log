@@ -30,3 +30,20 @@
 [2024-06-17T22:01:48.438Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde not found.
 [2024-06-17T22:02:21.648Z] check qr
 [2024-06-17T22:02:21.653Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde deactivated.
+[2024-06-18T19:10:47.031Z] Node server listening at http://localhost:5252
+[2024-06-18T19:10:47.040Z] MySQL connected...
+[2024-06-18T19:10:47.043Z] Processed events table ensured.
+[2024-06-18T19:22:01.993Z] check qr
+[2024-06-18T19:22:01.997Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
+[2024-06-18T19:22:05.202Z] check qr
+[2024-06-18T19:22:05.203Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
+[2024-06-18T19:40:57.850Z] check qr
+[2024-06-18T19:40:57.851Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
+[2024-06-18T19:41:11.668Z] check qr
+[2024-06-18T19:41:11.669Z] QR code cd9471022dbeda6485dbc0dc5a66119ac78ae40d4656ca0e44d04a9560eed97c not found.
+[2024-06-18T19:41:58.652Z] check qr
+[2024-06-18T19:41:58.902Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde deactivated.
+[2024-06-18T19:42:04.592Z] check qr
+[2024-06-18T19:42:04.594Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
+[2024-06-18T20:28:06.237Z] check qr
+[2024-06-18T20:28:06.240Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
