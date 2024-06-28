@@ -3,6 +3,42 @@ const { logToFile } = require('../utils/log');
 const { createTicket, generateQRCode, generatePDF } = require('../utils/ticketUtils');
 const { sendEmailWithTicket } = require('../utils/email');
 
+exports.createTicket = async (req, res) => {
+    const { email, paymentIntentId } = req.body;
+
+    if (!email || !paymentIntentId) {
+        return res.status(400).json({ error: 'Email and paymentIntentId are required' });
+    }
+
+    try {
+        // Создание билета
+        const ticket = await createTicket(email, paymentIntentId);
+
+        // Генерация QR-кода
+        const qrCodePath = await generateQRCode(ticket);
+
+        // Генерация PDF
+        const pdfPath = await generatePDF(ticket, qrCodePath);
+
+        // Сохранение информации о билете в базе данных
+        db.query('INSERT INTO tickets (email, payment_intent_id, qr_code, qr_hash, pdf_path, is_active) VALUES (?, ?, ?, ?, ?, 1)',
+            [email, paymentIntentId, qrCodePath, ticket.qr_hash, pdfPath], (err, result) => {
+                if (err) {
+                    console.error(err);
+                    return res.status(500).send(err);
+                }
+
+                // Отправка билета на email
+                sendEmailWithTicket(email, pdfPath);
+
+                res.status(201).json({ message: 'Ticket created successfully', ticket });
+            });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Error creating ticket' });
+    }
+};
+
 exports.getTicketInfo = (req, res) => {
     const { paymentIntentId } = req.body;
 
@@ -28,7 +64,7 @@ exports.getTicketInfo = (req, res) => {
                 pdfPath,
             });
         } else {
-            res.status(404).json({ error: 'Ticket not found' });
+            res.status(404).json({ error: 'qr_code_not_found' });
         }
     });
 };
@@ -52,7 +88,7 @@ exports.getTicketStatus = (req, res) => {
                 isActive: ticket.is_active,
             });
         } else {
-            res.status(404).json({ error: 'Ticket not found' });
+            res.status(404).json({ error: 'qr_code_not_found' });
         }
     });
 };
@@ -83,7 +119,7 @@ exports.checkQRCode = (req, res) => {
                 logToFile(`QR code ${qr_hash} already deactivated.`);
             }
         } else {
-            res.json({ status: 'fail', message: 'QR code not found.' });
+            res.json({ status: 'fail', message: 'qr_code_not_found' });
             logToFile(`QR code ${qr_hash} not found.`);
         }
     });
@@ -103,7 +139,7 @@ exports.checkQR = (req, res) => {
         }
 
         if (results.length === 0) {
-            return res.status(404).send("QR code not found.");
+            return res.status(404).send("qr_code_not_found");
         }
 
         const ticket = results[0];
@@ -115,10 +151,10 @@ exports.checkQR = (req, res) => {
                     return res.status(500).send("Error on the server.");
                 }
 
-                return res.status(200).send({ message: "QR code is valid and has been deactivated.", active: 1 });
+                return res.status(200).send({ message: "qr_code_deactivated", active: 1 });
             });
         } else {
-            return res.status(200).send({ message: "QR code is already used.", active: 0 });
+            return res.status(200).send({ message: "qr_code_used", active: 0 });
         }
     });
 };

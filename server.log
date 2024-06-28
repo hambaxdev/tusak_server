@@ -47,3 +47,166 @@
 [2024-06-18T19:42:04.594Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
 [2024-06-18T20:28:06.237Z] check qr
 [2024-06-18T20:28:06.240Z] QR code eb1b659e8bccee326940ddce0d8211e22fb1a440f1f5946ab418d213e8e91fde already deactivated.
+[2024-06-21T14:05:00.804Z] Node server listening at http://localhost:5252
+[2024-06-21T14:05:00.809Z] MySQL connected...
+[2024-06-21T14:05:00.810Z] Processed events table ensured.
+[2024-06-21T14:05:27.418Z] Node server listening at http://localhost:5252
+[2024-06-21T14:05:27.428Z] MySQL connected...
+[2024-06-21T14:05:27.429Z] Processed events table ensured.
+[2024-06-21T14:09:59.622Z] check qr
+[2024-06-21T14:09:59.643Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-21T14:11:37.111Z] Login request received: 
+[2024-06-21T14:11:37.115Z] No user found with email: 
+[2024-06-21T14:13:29.337Z] Login request received: 
+[2024-06-21T14:13:29.339Z] No user found with email: 
+[2024-06-21T14:14:44.724Z] Node server listening at http://localhost:5252
+[2024-06-21T14:14:44.731Z] MySQL connected...
+[2024-06-21T14:14:44.732Z] Processed events table ensured.
+[2024-06-21T14:15:22.915Z] Login request received: 
+[2024-06-21T14:15:22.916Z] No user found with email: 
+[2024-06-21T14:15:44.362Z] check qr
+[2024-06-21T14:15:44.363Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-21T14:17:15.751Z] check qr
+[2024-06-21T14:17:15.752Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-21T14:18:43.397Z] Node server listening at http://localhost:5252
+[2024-06-21T14:18:43.402Z] MySQL connected...
+[2024-06-21T14:18:43.403Z] Processed events table ensured.
+[2024-06-21T14:18:52.755Z] check qr
+[2024-06-21T14:18:52.762Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-21T14:19:26.164Z] Node server listening at http://localhost:5252
+[2024-06-21T14:19:26.171Z] MySQL connected...
+[2024-06-21T14:19:26.172Z] Processed events table ensured.
+[2024-06-21T14:19:33.378Z] check qr
+[2024-06-21T14:19:33.382Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-21T14:20:03.245Z] Node server listening at http://localhost:5252
+[2024-06-21T14:20:03.252Z] MySQL connected...
+[2024-06-21T14:20:03.253Z] Processed events table ensured.
+[2024-06-21T14:20:21.389Z] check qr
+[2024-06-21T14:20:21.393Z] QR code 7fd47dfb677fc092caf9cbbb3574cf48bdf0fb5e45250fb7b2c450e93df2ffb0 not found.
+[2024-06-22T20:15:50.742Z] Node server listening at http://localhost:5252
+[2024-06-22T20:15:50.784Z] MySQL connected...
+[2024-06-22T20:15:50.785Z] Processed events table ensured.
+[2024-06-23T17:00:44.161Z] Node server listening at http://localhost:5252
+[2024-06-23T17:00:44.170Z] MySQL connected...
+[2024-06-23T17:00:44.172Z] Processed events table ensured.
+[2024-06-23T17:03:25.498Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":10,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:32:15.165Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":11,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:32:34.486Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":12,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:32:36.553Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":13,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:33:02.214Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":14,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:33:16.464Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":15,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:33:20.229Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":16,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T18:33:23.066Z] Ticket inserted into database: {"fieldCount":0,"affectedRows":1,"insertId":17,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+[2024-06-23T21:38:01.076Z] Node server listening at http://localhost:5252
+[2024-06-23T21:38:01.090Z] MySQL connected...
+[2024-06-23T21:38:01.092Z] Processed events table ensured.
+[2024-06-23T21:44:09.744Z] Node server listening at http://localhost:5252
+[2024-06-23T21:44:09.750Z] MySQL connected...
+[2024-06-23T21:44:09.751Z] Processed events table ensured.
+[2024-06-23T21:44:19.843Z] Registration request received: No E-Mail
+[2024-06-23T21:45:59.707Z] Node server listening at http://localhost:5252
+[2024-06-23T21:45:59.713Z] MySQL connected...
+[2024-06-23T21:45:59.715Z] Processed events table ensured.
+[2024-06-23T21:46:06.120Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:46:06.152Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'is_verified' in 'field list'
+[2024-06-23T21:46:14.457Z] Registration request received: No E-Mail
+[2024-06-23T21:46:14.457Z] Missing email or password: email=No E-Mail, password=undefined
+[2024-06-23T21:46:26.080Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:46:26.098Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'is_verified' in 'field list'
+[2024-06-23T21:47:39.707Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:47:39.725Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'is_verified' in 'field list'
+[2024-06-23T21:47:56.401Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:47:56.418Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'is_verified' in 'field list'
+[2024-06-23T21:48:15.176Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:48:15.193Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'is_verified' in 'field list'
+[2024-06-23T21:50:33.460Z] Node server listening at http://localhost:5252
+[2024-06-23T21:50:33.466Z] MySQL connected...
+[2024-06-23T21:50:33.467Z] Processed events table ensured.
+[2024-06-23T21:50:35.734Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:50:35.763Z] Database insertion error: ER_BAD_FIELD_ERROR: Unknown column 'password_hash' in 'field list'
+[2024-06-23T21:51:02.992Z] Node server listening at http://localhost:5252
+[2024-06-23T21:51:02.997Z] MySQL connected...
+[2024-06-23T21:51:03.013Z] Processed events table ensured.
+[2024-06-23T21:51:07.540Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:51:07.575Z] Role selection error: ER_BAD_FIELD_ERROR: Unknown column 'name' in 'where clause'
+[2024-06-23T21:51:39.388Z] Node server listening at http://localhost:5252
+[2024-06-23T21:51:39.394Z] MySQL connected...
+[2024-06-23T21:51:39.401Z] Processed events table ensured.
+[2024-06-23T21:51:41.326Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:51:41.334Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:52:34.427Z] Node server listening at http://localhost:5252
+[2024-06-23T21:52:34.433Z] MySQL connected...
+[2024-06-23T21:52:34.439Z] Processed events table ensured.
+[2024-06-23T21:52:35.965Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:52:35.967Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:53:07.179Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:53:07.180Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:55:02.754Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:55:02.755Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:55:06.911Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:55:06.912Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:55:30.844Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:55:30.845Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:55:55.677Z] Registration request received: aleksand.kuz@gmail.com
+[2024-06-23T21:55:55.678Z] Email already in use: aleksand.kuz@gmail.com
+[2024-06-23T21:56:24.119Z] Registration request received: alexodkuz@gmail.com
+[2024-06-23T21:56:24.161Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T19:59:11.279Z] Node server listening at http://localhost:5252
+[2024-06-25T19:59:11.295Z] MySQL connected...
+[2024-06-25T19:59:11.319Z] Processed events table ensured.
+[2024-06-25T19:59:47.389Z] Registration request received: No E-Mail
+[2024-06-25T19:59:47.389Z] Missing email or password: email=No E-Mail, password=undefined
+[2024-06-25T20:01:02.489Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:01:02.524Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T20:06:55.025Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:06:55.027Z] Email already in use: alexodkuz@gmail.com
+[2024-06-25T20:07:05.543Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:07:05.568Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T20:07:24.348Z] Node server listening at http://localhost:5252
+[2024-06-25T20:07:24.354Z] MySQL connected...
+[2024-06-25T20:07:24.360Z] Processed events table ensured.
+[2024-06-25T20:07:35.185Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:07:35.216Z] role:[object Object]
+[2024-06-25T20:07:35.217Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T20:08:40.534Z] Node server listening at http://localhost:5252
+[2024-06-25T20:08:40.539Z] MySQL connected...
+[2024-06-25T20:08:40.546Z] Processed events table ensured.
+[2024-06-25T20:08:53.458Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:08:53.491Z] role:undefined
+[2024-06-25T20:08:53.492Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T20:12:19.399Z] Node server listening at http://localhost:5252
+[2024-06-25T20:12:19.408Z] MySQL connected...
+[2024-06-25T20:12:19.416Z] Processed events table ensured.
+[2024-06-25T20:12:29.884Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:12:29.916Z] [object Object]
+[2024-06-25T20:12:29.917Z] Role assignment error: ER_BAD_NULL_ERROR: Column 'role_id' cannot be null
+[2024-06-25T20:14:48.504Z] Node server listening at http://localhost:5252
+[2024-06-25T20:14:48.510Z] MySQL connected...
+[2024-06-25T20:14:48.516Z] Processed events table ensured.
+[2024-06-25T20:14:57.565Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:14:57.596Z] Error during email verification process: secretOrPrivateKey must have a value
+[2024-06-25T20:17:51.538Z] Node server listening at http://localhost:5252
+[2024-06-25T20:17:51.543Z] MySQL connected...
+[2024-06-25T20:17:51.550Z] Processed events table ensured.
+[2024-06-25T20:17:55.489Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:17:56.664Z] Verification email sent: 250 2.0.0 OK  1719346676 a640c23a62f3a-a6fdafe90b8sm455414866b.71 - gsmtp
+[2024-06-25T20:28:32.219Z] Node server listening at http://localhost:5252
+[2024-06-25T20:28:32.238Z] MySQL connected...
+[2024-06-25T20:28:32.246Z] Processed events table ensured.
+[2024-06-25T20:29:18.353Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:29:19.406Z] Verification email sent: 250 2.0.0 OK  1719347359 a640c23a62f3a-a7259af3e58sm209207466b.122 - gsmtp
+[2024-06-25T20:31:09.035Z] Node server listening at http://localhost:5252
+[2024-06-25T20:31:09.041Z] MySQL connected...
+[2024-06-25T20:31:09.050Z] Processed events table ensured.
+[2024-06-25T20:33:55.411Z] Node server listening at http://localhost:5252
+[2024-06-25T20:33:55.416Z] MySQL connected...
+[2024-06-25T20:33:55.423Z] Processed events table ensured.
+[2024-06-25T20:37:43.412Z] Node server listening at http://localhost:5252
+[2024-06-25T20:37:43.418Z] MySQL connected...
+[2024-06-25T20:37:43.425Z] Processed events table ensured.
+[2024-06-25T20:38:04.800Z] Registration request received: alexodkuz@gmail.com
+[2024-06-25T20:38:05.899Z] Verification email sent: 250 2.0.0 OK  1719347886 4fb4d7f45d1cf-57d303d7aaasm6311824a12.4 - gsmtp
+[2024-06-25T20:38:18.118Z] Database update error: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+[2024-06-25T20:38:54.608Z] Node server listening at http://localhost:5252
+[2024-06-25T20:38:54.613Z] MySQL connected...
+[2024-06-25T20:38:54.614Z] Processed events table ensured.
